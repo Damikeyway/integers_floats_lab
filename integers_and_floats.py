@@ -2,17 +2,19 @@
 # The tests need to pass and the function needs to meet the requirements
 
 def integer_division():
+
     # function requirements: divide the two integers and return the type of the result
     integer_1 = 20
     integer_2 = 4
-    return
+    return type(integer_1/integer_2)
 
 
 def float_integer_multiplication():
     # function requirements: multiply a float and integer and return the type of the result
     float_1 = 5.9
     integer_1 = 22
-    return
+    return type(float_1*integer_1)
+
 
 
 def inputs_are_strings():
